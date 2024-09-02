@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Roshan T. - Cyber Professional</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa2FofckC7I3XEYbbm0fo7E8gWzoB4aGlsmg&s') no-repeat center center fixed;
+            background-size: cover;
+            color: #00ff00;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+        .typing {
+            display: inline;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: .15em solid #00ff00;
+            animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: #00ff00; }
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .delay-1 { animation-delay: 5s; }
+        .delay-2 { animation-delay: 10s; }
+        .delay-3 { animation-delay: 15s; }
+        .delay-4 { animation-delay: 20s; }
+        .delay-5 { animation-delay: 25s; }
+        .about, .booking {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .booking {
+            margin: 20px 0;
+        }
+        .booking a {
+            color: #00ff00;
+            text-decoration: none;
+            border: 1px solid #00ff00;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .booking a:hover {
+            background-color: #00ff00;
+            color: #0e0e0e;
+        }
+        .social-links a {
+            color: #00ff00;
+            text-decoration: none;
+            margin: 0 10px;
+            border: 1px solid #00ff00;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .social-links a:hover {
+            background-color: #00ff00;
+            color: #0e0e0e;
+        }
+        .form-container {
+            max-width: 500px;
+            width: 100%;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #00ff00;
+        }
+        .form-container input[type="submit"] {
+            background: #00ff00;
+            color: #0e0e0e;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        .form-container input[type="submit"]:hover {
+            background: #0e0e0e;
+            color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mohammed Roshan T.</h1>
+        <h2 class="typing">Cybersecurity Engineer</h2>
+        <h2 class="typing delay-1">Web Developer</h2>
+        <h2 class="typing delay-2">3D Modeler</h2>
+        <h2 class="typing delay-3">Network Engineer</h2>
+        <h2 class="typing delay-4">Penetration Tester</h2>
+        <div class="about">
+            <p>Hello! I'm Mohammed Roshan T., a passionate professional in the fields of cybersecurity, web development, 3D modeling, network engineering, and penetration testing. I enjoy exploring new technologies and tackling complex challenges.</p>
+        </div>
+        <div class="form-container">
+            <h2>Book a Service</h2>
+            <form action="mailto:mr.roxhan@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/MohammedRoshanT" target="_blank">GitHub</a>
+            <a href="https://instagram.com/mr_roxhan" target="_blank">Instagram</a>
+            <a href="mailto:mr.roxhan@gmail.com">Email</a>
+        </div>
+    </div>
+</body>
+              </html>
