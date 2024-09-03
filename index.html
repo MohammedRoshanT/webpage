@@ -51,24 +51,12 @@
         .delay-3 { animation-delay: 15s; }
         .delay-4 { animation-delay: 20s; }
         .delay-5 { animation-delay: 25s; }
-        .about, .booking {
+        .about {
             font-size: 1.2em;
             margin: 20px 0;
         }
-        .booking {
+        .social-links {
             margin: 20px 0;
-        }
-        .booking a {
-            color: #00ff00;
-            text-decoration: none;
-            border: 1px solid #00ff00;
-            padding: 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .booking a:hover {
-            background-color: #00ff00;
-            color: #0e0e0e;
         }
         .social-links a {
             color: #00ff00;
@@ -83,35 +71,6 @@
             background-color: #00ff00;
             color: #0e0e0e;
         }
-        .form-container {
-            max-width: 500px;
-            width: 100%;
-            margin: auto;
-            padding: 20px;
-            border: 2px solid #00ff00;
-            border-radius: 10px;
-            background: rgba(0, 0, 0, 0.8);
-        }
-        .form-container input, .form-container textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #00ff00;
-            border-radius: 5px;
-            background: rgba(0, 0, 0, 0.8);
-            color: #00ff00;
-        }
-        .form-container input[type="submit"] {
-            background: #00ff00;
-            color: #0e0e0e;
-            border: none;
-            cursor: pointer;
-            font-size: 1.2em;
-        }
-        .form-container input[type="submit"]:hover {
-            background: #0e0e0e;
-            color: #00ff00;
-        }
     </style>
 </head>
 <body>
@@ -125,16 +84,6 @@
         <div class="about">
             <p>Hello! I'm Mohammed Roshan T., a passionate professional in the fields of cybersecurity, web development, 3D modeling, network engineering, and penetration testing. I enjoy exploring new technologies and tackling complex challenges.</p>
         </div>
-        <div class="form-container">
-            <h2>Book a Service</h2>
-            <form action="mailto:mr.roxhan@gmail.com" method="post" enctype="text/plain">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <input type="text" name="subject" placeholder="Subject" required>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                <input type="submit" value="Send">
-            </form>
-        </div>
         <div class="social-links">
             <a href="https://github.com/MohammedRoshanT" target="_blank">GitHub</a>
             <a href="https://instagram.com/mr_roxhan" target="_blank">Instagram</a>
@@ -142,4 +91,4 @@
         </div>
     </div>
 </body>
-              </html>
+</html>
